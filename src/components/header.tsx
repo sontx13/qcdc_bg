@@ -13,8 +13,11 @@ function AppHeader() {
   );
 
   const title = useMemo(() => {
-    if (location.pathname === "/calendar") {
-      return "Lịch của tôi";
+    if (location.pathname === "/infor") {
+      return "Tài khoản";
+    }
+     if (location.pathname === "/congkhai") {
+      return "Công khai";
     }
     if (location.pathname === "/restaurant") {
       if (restaurant) {

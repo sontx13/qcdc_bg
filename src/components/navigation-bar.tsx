@@ -9,9 +9,14 @@ const navItems = [
     icon: <Icon icon="zi-home" />,
   },
   {
-    path: "/calendar",
-    label: "Lịch của tôi",
-    icon: <Icon icon="zi-calendar" />,
+    path: "/congkhai",
+    label: "Công khai",
+    icon: <Icon icon="zi-poll-solid" />,
+  },
+  {
+    path: "/infor",
+    label: "Tài khoản",
+    icon: <Icon icon="zi-user" />,
   },
 ];
 

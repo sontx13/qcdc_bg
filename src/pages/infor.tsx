@@ -80,34 +80,29 @@ function Welcome() {
         Hi
       </Avatar>
       <Text size="small">{user.name ? <>Chào, {user.name}!</> : "..."}</Text>
-      <Text className="text-[25px] leading-[29px] font-bold">
-        Hôm nay bạn muốn ăn ở đâu?
-      </Text>
     </>
   );
 }
 
-const HomePage = () => {
+const InforPage = () => {
   return (
     <Page>
       <Box mx={4} mb={4} mt={5}>
-        {/* <Suspense>
+        <Suspense>
           <Welcome />
         </Suspense>
-        {getConfig((c) => c.template.searchBar) && (
+        {/* {getConfig((c) => c.template.searchBar) && (
           <>
             <Inquiry />
-            <Header className="mt-6 font-semibold">Phân loại nhanh</Header>
           </>
         )} */}
-        <QuickFilter />
       </Box>
-      <Popular />
+      {/* <Popular />
       <Suspense>
         <Nearest />
-      </Suspense>
+      </Suspense> */}
     </Page>
   );
 };
 
-export default HomePage;
+export default InforPage;

@@ -7,6 +7,8 @@ import Header from "./header";
 import NavigationBar from "./navigation-bar";
 import RestaurantPage from "../pages/restaurant";
 import CalendarPage from "../pages/calendar";
+import CongKhaiPage from "../pages/congkhai";
+import InforPage from "../pages/infor";
 import Cart from "./cart";
 import { ConfigProvider, getConfig } from "./config-provider";
 
@@ -28,6 +30,8 @@ const MyApp = () => {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/restaurant" element={<RestaurantPage />}></Route>
                 <Route path="/calendar" element={<CalendarPage />}></Route>
+                <Route path="/congkhai" element={<CongKhaiPage />}></Route>
+                <Route path="/infor" element={<InforPage />}></Route>
               </AnimationRoutes>
               <NavigationBar />
             </ZMPRouter>
