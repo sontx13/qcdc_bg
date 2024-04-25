@@ -1,4 +1,4 @@
-# ZaUI Restaurant
+# QCDC BGG
 
 <p style="display: flex; flex-wrap: wrap; gap: 4px">
   <img alt="react" src="https://img.shields.io/github/package-json/dependency-version/Zalo-MiniApp/zaui-restaurant/react" />
@@ -16,8 +16,8 @@ Starter template for building a restaurant's mini program. Main features:
 - Book a table or order food online
 - View booking history
 
-|                          Preview                           |               Open Zalo and scan this QR                |
-| :--------------------------------------------------------: | :-----------------------------------------------------: |
+|                          Preview                           |                                     Open Zalo and scan this QR                                      |
+| :--------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
 | <img src="./docs/preview.jpg" alt="Home page" width="250"> | <img src="https://logo-mapps.zdn.vn/qrcode/cc27187ebc3b55650c2a.png" alt="Entry point" width="250"> |
 
 ## Pre-requisites
@@ -90,7 +90,7 @@ Just change the `app.title` property in `app-config.json`:
 ```json
 {
   "app": {
-    "title": "ZaUI Restaurant"
+    "title": "QCDC BGG"
   }
 }
 ```

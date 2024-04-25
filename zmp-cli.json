@@ -1,6 +1,6 @@
 {
   "cwd": "/Users/lap15182-local/Desktop/zalo/zmp-restaurant",
-  "name": "ZaUI Restaurant",
+  "name": "QCDC BGG",
   "framework": "react-typescript",
   "cssPreProcessor": "scss",
   "includeTailwind": true,
